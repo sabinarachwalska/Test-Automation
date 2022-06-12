@@ -1,6 +1,6 @@
 class LogInForm {
   loginInBlock() {
-    return cy.get("#login_form").should("be.visible");
+    return cy.get("Test-Automation").should("be.visible");
   }
 
   loginSubheading() {
@@ -19,8 +19,8 @@ class LogInForm {
     return cy.get("#SubmitLogin > span").should("be.visible");
   }
 
-  lostPassword(){
-      return cy.get('.lost_password > a').should("be.visible");
+  lostPassword() {
+    return cy.get(".lost_password > a").should("be.visible");
   }
 }
 

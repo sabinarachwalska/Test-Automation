@@ -1,6 +1,10 @@
 {
   "dependencies": {
+    "bluebird": "^3.7.2",
     "cypress": "^10.0.2",
     "javascript": "^1.0.0"
+  },
+  "devDependencies": {
+    "cypress-localstorage-commands": "^2.1.0"
   }
 }
